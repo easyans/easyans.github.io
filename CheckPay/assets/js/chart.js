@@ -224,9 +224,9 @@ fetch(`https://bridge-test-api.herokuapp.com/checklogin`,
           {
              console.log(resp)
              if(resp.wait==true)
-             window.location.href="https://ansuman528.github.io/VisualPe/wait.htm"
+             window.location.href="https://easyans.github.io/CheckPay/wait.html"
              if(resp.auth==false)
-             window.location.href="https://ansuman528.github.io/VisualPe/login.htm"
+             window.location.href="https://easyans.github.io/CheckPay/login.html"
           }
       })
   .catch(()=>{ 
