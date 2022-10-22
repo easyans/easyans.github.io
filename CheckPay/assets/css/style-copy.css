@@ -1,0 +1,15 @@
+.table-area
+{
+  background-color: white;
+  padding: 5%;
+}
+.thead-primary
+{
+  background-color: hsl(268,100%,69%);
+  padding: 5%;
+}
+.scope
+{
+  padding: 5%;
+  border-right: 1px solid hsl(268,100%,69%);
+}
